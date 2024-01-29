@@ -1,0 +1,24 @@
+name: swintgan
+channels:
+    - pytorch
+    - defaults
+    - anaconda
+    - conda-forge
+    - nvidia
+dependencies:
+    - python=3.9.12
+    - tqdm>=4.64.0
+    - pytorch=2.0.0
+    - numpy>=1.22.4
+    - torchvision
+    - torchaudio
+    - pytorch-cuda=11.8
+    - pip
+    - matplotlib
+    - chardet
+    - timm
+    - scipy==1.10.1
+    - pyparsing
+    - pip:
+        - discord-webhook>=1.0.0
+        - clean-fid
